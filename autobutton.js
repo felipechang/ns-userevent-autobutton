@@ -35,7 +35,7 @@ define([], function () {
             context.form.addButton({
                 id: "custpage_button",
                 label: "Button Name",
-                functionName: "(" + func.toString() + ")"
+                functionName: "(" + func.toString() + ")()"
             });
         }
     };
